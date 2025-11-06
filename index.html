@@ -1,14 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="assets/bs.js"></script>
+    <link rel="stylesheet" href="assets/bs-icons.css">
+    <link rel="stylesheet" href="assets/bs.css">
     <title>IoT</title>
 </head>
 <body>
-  https://placehold.co/840x472
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid justify-content-end">
+      <a class="navbar-brand" href="#">Pslib IoT Dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Dům</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Garáž</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Zahrada</a>
+          </li>
+        </ul>
+        <span>
+          <small>6.11.2025 11:45</small>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">Hlavní panel</li>
+            <li class="list-group-item">Oznámení<span class="bg-primary rounded-pill">2</span></li>
+            <li class="list-group-item">Moje zařízení</li>
+            <li class="list-group-item">Nastavení</li>
+          </ul>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h4>Teplota-hlavní chodba</h4>
+                  <p>23,51°C</p>
+                  <small>další měření za: 5 minut</small> <br>
+                  <a href="#" class="btn btn-primary">Změřit teď</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h4>Teplota-Kuchyně</h4>
+                  <p>23,51°C</p>
+                  <small>další měření za: 12 minut</small> <br>
+                  <a href="#" class="btn btn-primary">Změřit teď</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center border-success" style="border-color-success">
+                <div class="card-body">
+                  <h4>Přední vchod</h4>
+                  <p>23,51°C</p>
+                  <small>Zamknuto</small> <br>
+                  <a href="#" class="btn btn-warning">Odemknout</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4 pt-4">
+                <div class="card text-center border-danger">
+                  <div class="card-body">
+                    <h4>Přední vchod</h4>
+                    <p>23,51°C</p>
+                    <small>Odemknuto</small> <br>
+                    <a href="#" class="btn btn-success">Zamknout</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-end">
+        <div class="col-md-3 pt-4">
+          <div class="card justify-content-center text-center">
+            <div class="card-body">
+              <h4>Kamera Západ</h4>
+              <img src="#" alt="obrázek">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 pt-4">
+          <div class="card justify-content-center text-center">
+            <div class="card-body">
+              <h4>Kamera Východ</h4>
+              <img src="#" alt="obrázek">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 pt-4">
+          <div class="card justify-content-center text-center">
+            <div class="card-body">
+              <h4>Kamera Sever</h4>
+              <img src="#" alt="obrázek">
+            </div>
+          </div>
+        </div>
+    </div>
+  
+sliders
+plug
+bell
+home
 </body>
 </html>
